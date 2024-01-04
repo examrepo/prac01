@@ -1,0 +1,34 @@
+Open VmWare Workstation Player and Create a New Virtual Machine. Select the iso file.
+
+Step-2: Select Linux as Operating System and Version as Ubuntu 64-bit, name the virtual machine and
+add the location where you want to store the file.
+
+Step-3: Enter the disk size number and finish the setup.
+
+Step-4: Play the virtual machine and select the language, after selecting the language select Ok.
+
+Step-5: Select Accept EULA to proceed.
+
+Step-6: Select both the options by pressing the Space button and proceed.
+
+Step-7: Select Installation Source as Local Media and then Skip Verification.
+
+Step-8: Set a password of at least 6 characters (Here, the password is root123).
+
+Step-9: Select Networking as Automatic configuration (DHCP).
+
+Step-10: Set the hostname as manually specify and you can edit the name and select Automatically set
+via DHCP in DNS Configuration.
+
+Step-11: Select Time Zone, first the Continent and then the City.
+
+Step-12: Confirm the Installation by selecting Install XenServer, and it will install XenServer.
+
+Step-13: After Installation, it will bootup the XenServer.
+
+Step-14: To install the XenCenter application, add the IP address on the internet browser.
+
+Step-15: After Installing the XenCenter application, add a new server (Enter the IP address, Username:
+root, Password: root123).
+
+Step-16: This will show all the properties of the server we have connected.
