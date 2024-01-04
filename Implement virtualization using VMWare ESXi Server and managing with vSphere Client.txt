@@ -1,0 +1,47 @@
+Open VmWare Workstation Player and Create a New Virtual Machine. Select the iso file.
+
+Step-2: Name the virtual machine and add the location where you want to store the file.
+
+Step-3: Enter the disk size number and finish the setup.
+
+Step-4: Before starting the virtual machine, Select Customize Hardware and make few changes such as
+Setting RAM as 4 GB and selecting 2 processors and disable the option of Virtualize Intel VT -x/EPT or
+AMD -V/RVI.
+
+Step-5: Play the virtual machine and the ESXi will bootup.
+
+Step-6: Press Enter to continue the installation.
+
+Step-7: Press F11 to accept and continue the installation.
+
+Step-8: Select the Local Disk for storing the ESXi and Press Enter to continue.
+
+Step-9: Enter a root password and Press Enter to continue.
+
+Step-10: Confirm the Installation by pressing the F11 key and start the installation.
+
+Step-11: After installing it will bootup and ESXi Server will start.
+
+Step-12: After Installing the vSphere Client application, add a new server (Enter the IP address,
+Username: root, Password: root123).
+
+Step-13: The vSphere Client will successfully connect to the ESXi Server.
+
+Step-14: In the Summary Tab then Resources Option, look for storage option and right click on it and
+select Browse Datastore.
+
+Step-15: Here, you can upload any ISO file in the datastore.
+
+Step-16: Right Click on the Server and select New Virtual Machine.
+
+Step-17: Right Click on the Server and select New Virtual Machine and select the datastore1 disk for
+storing the virtual machine.
+
+Step-18: Select the operating system and its version.
+
+Step-19: Select Network and create a disk space and finish the installation.
+
+Step-20: After successfully installing the virtual machine, right click and select edit settings.
+
+Step-21: In CD/DVD drive, select datastore ISO file, select Browse and select the ISO file from the
+datastore and select Ok. You can play the virtual machine after selecting the ISO file.
